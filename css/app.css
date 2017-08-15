@@ -1,0 +1,88 @@
+.logoname {
+    margin: 0 1rem 0 0;
+
+}
+
+.bg-topbar {
+    border-bottom-color: rgba(224, 225, 226, 0.86);
+    border-bottom-style: solid;
+}
+
+.form-login {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.form-login-group {
+    padding: 1rem;
+}
+
+.form-registration-group .form-registration-input {
+    border-radius: 0;
+}
+
+.form-registration-group .form-registration-input:focus {
+    border: 2px solid #1779ba;
+    box-shadow: 0 0 5px #1779ba;
+}
+
+.form-login-group .form-login-submit-button {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    padding: 0.85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1779ba;
+    color: #fefefe;
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 5000px;
+}
+
+[data-whatinput='mouse'] .form-registration-group .form-registration-submit-button {
+    outline: 0;
+}
+
+.form-login-group .form-login-submit-button:hover, .form-login-group .form-login-submit-button:focus {
+    background-color: #126195;
+    color: #fefefe;
+}
+
+.form-login-group .form-login-social-button {
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    padding: 0.85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #3b5998;
+    color: #3b5998;
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 5000px;
+}
+
+
